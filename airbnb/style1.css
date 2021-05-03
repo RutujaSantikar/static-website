@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin-top: 60px;
+  padding-left: 300px;
+  padding-right: 70px;
+}
+.gradient {
+  background: linear-gradient(rgb(97, 248, 203), rgb(104, 199, 194));
+}
+.navbar {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+  color: white;
+  padding: 12px 300px;
+}
+
+.stay {
+  background-color: steelblue;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+.stay a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-links ul {
+  padding: 0;
+}
+.navbar-links li {
+  list-style: none;
+  display: inline;
+  margin-right: 8px;
+}
+.navbar-links li a {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.flexbox {
+  display: flex;
+  padding-left: 1px;
+}
+.flexbox div li {
+  list-style: none;
+  margin: 3px;
+}
+h3 {
+  padding: 8px;
+  color: rgb(207, 39, 67);
+  letter-spacing: 1px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.space li {
+  list-style: none;
+  display: inline;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.Amentty li {
+  list-style: none;
+  display: inline;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.extra p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.rule p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.button #but {
+  background-color: green;
+  color: white;
+  font-size: medium;
+  width: 200px;
+  padding: 10px;
+}
+#but:hover {
+  background-color: forestgreen;
+}
+
+.contact p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.submit #sub {
+  background-color: green;
+  color: white;
+  font-size: medium;
+  width: 200px;
+  padding: 10px;
+}
+#sub:hover {
+  background-color: forestgreen;
+}
