@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+section {
+  margin: 0 auto;
+  max-width: 1024px;
+  height: 100%;
+}
+.banner-container {
+  display: flex;
+  flex-direction: row;
+}
+.banner-container div {
+  width: 50%;
+}
+img {
+  width: 100%;
+}
+.right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.right-container > .advantage {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.advanatge .image {
+  width: 30%;
+}
+.advanatge .text {
+  width: 70%;
+}
+ .about-you .image{
+    background-color:coral;
+}
+.save-money .image{
+    background-color:cadetblue;
+}
+ .eat-healthy .image{
+    background-color: darkslateblue;
+}
+.image i{
+    color: white;
+}
