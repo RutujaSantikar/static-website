@@ -28,6 +28,7 @@ img {
   height: auto;
   display: flex;
   flex-direction: row;
+  height:28%;
 }
 .advanatge .image {
   width: 30%;
@@ -46,4 +47,11 @@ img {
 }
 .image i{
     color: white;
+    font-size:42px;
+}
+.image {
+  justify-content:center;
+  display:flex;
+  align-items:center;
+
 }
