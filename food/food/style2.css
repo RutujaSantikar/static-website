@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    margin: 0 auto;
+    /* max width the section can have is 1024px*/
+    max-width: 1024px;
+    height: 100%;
+    /* to hide elements going outside of this box (section)*/
+    overflow: hidden;
+}
+
+.heading{
+    font-size: 32px;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+.banner-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.banner-container > div{
+    width: 50%;
+}
+
+img{
+    width: 100%;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.right-container > .advantage{
+    width: 92%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    height: 28%;
+}
+
+.advantage .image{
+    width: 30%;
+}
+
+.advantage .text{
+    width: 70%;
+}
+
+.about-you .image{
+    background: rgb(121, 197, 248);
+}
+
+.save-money .image{
+    background: rgb(202, 132, 248);
+}
+
+.eat-healthy .image{
+    background: rgb(250, 205, 121);
+}
+
+.image i{
+    color: #ffffff;
+    font-size: 56px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantage .text{
+    padding: 0px 18px;
+}
+
+.advantage .text .title{
+   font-size: 22px;
+   font-weight: bold;
+   color: rgb(87, 85, 85);
+}
+
+.advantage .text .description{
+    font-size: 16px;
+    color: grey;
+    padding-top: 15px;
+}
