@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+.dropdown{
+    position: absolute;
+    top:40px;
+    left: 0;
+    box-shadow: 0px 5px 5px rgb(238, 238, 238);
+    width: 100px;
+}
+
+.search input{
+    position: absolute;
+    top: 40px;
+    width: 200px;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+}
+
+.menu, .search{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu, .menu ul li {
+    cursor: pointer;
+    padding: 5px 5px;
+}
+
+.menu .dropdown{
+    display: none;
+}
+
+.menu:hover .dropdown {
+    display: block;
+}
+
+.customers, .use-cases{
+    display: none;
+}
+
+.search input{
+    display: none;
+}
+
+.search:hover input{
+    display: block;
+}
+
+.menu li:hover{
+    border-right: 2px solid orange;
+}
